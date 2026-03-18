@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_credit_cards",
+  "info": {
+    "singularName": "landing-credit-card",
+    "pluralName": "landing-credit-cards",
+    "displayName": "Landing Credit Card"
+  },
+  "options": { "draftAndPublish": true },
+  "attributes": {
+    "heading": { "type": "text" },
+    "subheading": { "type": "string" },
+    "ctaButtonText": { "type": "string" },
+    "ctaDisclaimer": { "type": "string" },
+    "featureCards": { "type": "component", "repeatable": true, "component": "shared.feature-card" }
+  }
+}

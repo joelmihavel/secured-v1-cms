@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_footers",
+  "info": {
+    "singularName": "landing-footer",
+    "pluralName": "landing-footers",
+    "displayName": "Landing Footer"
+  },
+  "options": { "draftAndPublish": true },
+  "attributes": {
+    "taglineLine1": { "type": "string" },
+    "taglineLine2": { "type": "string" },
+    "copyright": { "type": "string" },
+    "exploreLabel": { "type": "string" },
+    "contactLabel": { "type": "string" }
+  }
+}

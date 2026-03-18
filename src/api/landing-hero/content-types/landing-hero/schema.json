@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_heroes",
+  "info": {
+    "singularName": "landing-hero",
+    "pluralName": "landing-heroes",
+    "displayName": "Landing Hero"
+  },
+  "options": { "draftAndPublish": true },
+  "attributes": {
+    "headingPrefix": { "type": "string", "default": "Earn " },
+    "headingHighlight": { "type": "string", "default": "1% back" },
+    "subheading": { "type": "string" },
+    "description": { "type": "text" },
+    "ctaButtonText": { "type": "string" },
+    "ctaDisclaimer": { "type": "string" },
+    "phoneImage": { "type": "media", "allowedTypes": ["images"], "multiple": false }
+  }
+}

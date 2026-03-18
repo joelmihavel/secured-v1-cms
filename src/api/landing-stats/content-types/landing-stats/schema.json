@@ -1,0 +1,15 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_stats_entries",
+  "info": {
+    "singularName": "landing-stats",
+    "pluralName": "landing-stats-entries",
+    "displayName": "Landing Stats"
+  },
+  "options": { "draftAndPublish": true },
+  "attributes": {
+    "brandHeading": { "type": "string" },
+    "brandSubheading": { "type": "string" },
+    "stats": { "type": "component", "repeatable": true, "component": "shared.stat-entry" }
+  }
+}

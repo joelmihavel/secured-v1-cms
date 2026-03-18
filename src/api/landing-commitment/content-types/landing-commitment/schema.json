@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_commitments",
+  "info": {
+    "singularName": "landing-commitment",
+    "pluralName": "landing-commitments",
+    "displayName": "Landing Commitment"
+  },
+  "options": { "draftAndPublish": true },
+  "attributes": {
+    "subtitle": { "type": "string" },
+    "heading": { "type": "text" },
+    "description": { "type": "text" },
+    "benefitCards": { "type": "component", "repeatable": true, "component": "shared.benefit-card" },
+    "marqueeText1": { "type": "string" },
+    "marqueeText2": { "type": "string" }
+  }
+}

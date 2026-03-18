@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_benefit_cards",
+  "info": {
+    "displayName": "Benefit Card",
+    "description": "A single benefit card with text"
+  },
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

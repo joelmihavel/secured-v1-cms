@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_feature_cards",
+  "info": {
+    "displayName": "Feature Card",
+    "description": "A feature card with text and icon"
+  },
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "media",
+      "allowedTypes": ["images"],
+      "multiple": false
+    }
+  }
+}

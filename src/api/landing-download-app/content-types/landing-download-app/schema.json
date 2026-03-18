@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_download_apps",
+  "info": {
+    "singularName": "landing-download-app",
+    "pluralName": "landing-download-apps",
+    "displayName": "Landing Download App"
+  },
+  "options": { "draftAndPublish": true },
+  "attributes": {
+    "heading": { "type": "string" },
+    "description": { "type": "text" },
+    "appStoreButtonText": { "type": "string" },
+    "playStoreButtonText": { "type": "string" },
+    "qrCodeImage": { "type": "media", "allowedTypes": ["images"], "multiple": false }
+  }
+}
